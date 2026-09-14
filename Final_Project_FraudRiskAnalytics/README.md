@@ -2,7 +2,8 @@
 
 ## Overview
 
-This is a **personal SQL portfolio project** built with Microsoft SQL Server / T-SQL.
+This is an applied SQL Server / T-SQL portfolio project that simulates a simplified transaction-monitoring environment.
+All data is synthetic. The project demonstrates SQL and analytical capability and does not represent professional banking or fraud-investigation experience.
 
 The project simulates a simplified transaction-monitoring environment and demonstrates how SQL can be used to:
 
@@ -55,11 +56,6 @@ It combines database design, analytical SQL, business logic, performance conside
 - Inline table-valued function
 - Stored procedure
 - Parameterized investigation workflow
-
-### Performance
-- Composite indexes
-- Included columns
-- Index design based on query patterns
 
 ### Risk / fraud logic
 - Transaction velocity
@@ -125,33 +121,5 @@ Combines multiple indicators — transaction behaviour, number of devices, count
 
 ---
 
-## Suggested GitHub description
 
-> Advanced SQL Server portfolio project for transaction risk and fraud analytics using CTEs, window functions, stored procedures, views, indexing and behavioural risk scoring.
 
----
-
-## What I would improve in a production version
-
-A production system would need much more than this demonstration project, including:
-
-- rule configuration tables instead of hard-coded thresholds;
-- historical baselines calculated only from data available before each transaction;
-- currency normalization;
-- merchant risk profiles;
-- geo-distance / impossible-travel detection;
-- IP reputation;
-- stronger alert deduplication;
-- auditing;
-- incremental processing;
-- data partitioning;
-- security and access controls;
-- performance testing on millions of rows.
-
----
-
-## Interview explanation
-
-A concise way to explain the project:
-
-> I built a synthetic transaction-monitoring database in SQL Server to practise advanced analytical SQL in a realistic risk scenario. I designed the relational model, created sample data, used CTEs and window functions for behavioural analysis, implemented transaction velocity and anomaly checks, created a customer risk score, generated fraud alerts, and added views, a stored procedure and indexes. The data is synthetic; the focus of the project is SQL design, analytical reasoning and explainability.
