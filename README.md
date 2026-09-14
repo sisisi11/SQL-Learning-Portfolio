@@ -1,6 +1,6 @@
 # SQL Learning Portfolio
 
-A structured 5-week SQL Server self-study track, starting with basic querying and progressing toward analytical SQL, database programming and a final Fraud \& Transaction Risk Analytics project.
+A structured SQL Server self-study portfolio, starting with basic querying and progressing toward analytical SQL, database programming and a final Fraud & Transaction Risk Analytics project.
 
 The exercises use synthetic data and are organized so that each stage builds on concepts introduced earlier.
 
