@@ -121,5 +121,19 @@ Combines multiple indicators — transaction behaviour, number of devices, count
 
 ---
 
+### Power BI Dashboard
+
+The project also includes a Power BI dashboard built on top of the SQL Server analytical layer.
+
+The dashboard provides:
+- Transaction activity and volume KPIs
+- Customer risk distribution
+- Country-level transaction analysis
+- High-risk customer monitoring
+- Declined transaction tracking
+- Customer-level risk overview with conditional formatting
+
+![Power BI Dashboard](screenshots/powerbi-dashboard.png)
+
 
 
